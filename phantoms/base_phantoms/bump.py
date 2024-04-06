@@ -14,6 +14,5 @@ class bump:
         distance = np.sqrt((x - self.center_x)**2 + (y - self.center_y)**2)
         return self.amp*smooth_decay.smooth_decay(self.inner_radius, self.outer_radius,distance)
     
-test_bump = bump(0,0, 0.3, 0.24, 1)
 
-print(test_bump.value(0,0))
+
