@@ -1,4 +1,4 @@
-import smooth_decay
+from . import smooth_decay
 
 import numpy as np
 

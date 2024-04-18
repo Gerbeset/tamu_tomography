@@ -1,4 +1,3 @@
-import sympy as syp
 import numpy as np
 
 def smooth_decay(x_max,x_min,x): 
@@ -12,4 +11,4 @@ def smooth_decay(x_max,x_min,x):
     if(relx<0.000001):
         relx = 0.000001
     
-    return np.e**(2*syp.E**(-1.0/relx)/ (relx-1))
+    return np.e**(2*np.e**(-1.0/relx)/ (relx-1))
