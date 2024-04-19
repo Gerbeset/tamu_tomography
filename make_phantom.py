@@ -31,11 +31,11 @@ class create_phantom:
         plt.show()
         
     
-my_phantom = bumps_1()
+#my_phantom = bumps_1()
 
-test_phantom = create_phantom(100, my_phantom)
-test_phantom.generate_phantom()
-test_phantom.display_phantom()
+#test_phantom = create_phantom(100, my_phantom)
+#test_phantom.generate_phantom()
+#test_phantom.display_phantom()
 
 '''
 coarse_x_vals = np.linspace(-1,1,20)

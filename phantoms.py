@@ -25,8 +25,8 @@ class bumps_1:
     def values(self,x,y): 
         return self.bump_1.value(x,y) + self.bump_2.value(x,y) +self.bump_3.value(x,y) + self.bump_4.value(x,y)
 
-test_phantom = single_bump()
-print(test_phantom.values(0,0))
+#test_phantom = single_bump()
+#print(test_phantom.values(0,0))
 
 
 def phantom_bumps_1_function(x,y): 
